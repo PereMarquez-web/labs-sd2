@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Changing Web Page!</title>
+</head>
+
+<body>
+    <h1>page heading</h1>
+    <div id="content"></div>
+    <script>
+        document.getElementById("content").innerHTML = name;
+        document.getElementsByTagName("h1")[0].innerHTML = name;
+        var name = "Pere";  // string type
+        var surname = "Vila";  // string type
+        var age = 24;  //Number type
+        var teacher = false; // Boolean type: Notice all lowercase true
+        document.write('Name ' + name + '<br>');  // + is used for string 
+        document.write('Surname ' + surname + '<br>');  // + is used for string
+        document.write('Age ' + age + '<br>');  // Try using + with another number and see what happens!
+        document.write('Is teacher? ' + teacher);
+        console.log(name);
+    </script>
+</body>
+
+</html>
