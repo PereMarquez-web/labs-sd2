@@ -22,6 +22,7 @@ const server = http.createServer(function(req, res) {
         res.statusCode = 302;
         res.setHeader("Location", "https://www.roehampton.ac.uk/");
         res.end();
+        //hello
     } else {
         res.end("Hello," + req.url);
     }
